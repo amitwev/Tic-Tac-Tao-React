@@ -1,0 +1,6 @@
+.boardRow {
+    clear: both;
+    content: "";
+    display: table;
+    margin: auto;
+}

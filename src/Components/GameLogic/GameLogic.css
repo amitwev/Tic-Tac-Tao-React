@@ -1,0 +1,47 @@
+#root {
+    background-image: linear-gradient(to bottom, #3e3c3c, #449248);
+    height: 100vh;
+}
+
+#root * {
+    font-family: Helvetica, Arial;
+    letter-spacing: 1.1px;
+    font-size: 16px;
+}
+
+#status {
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#board {
+    width: 50%;
+}
+
+#gameButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gameButtons {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 1px 2px 9px #888888;
+    margin: 0px 25px;
+    border-radius: 5%;
+}
+
+.gameButtons:hover {
+    background-color: cadetblue;
+    color: #fff;
+    border: 1px solid #fff;
+}
